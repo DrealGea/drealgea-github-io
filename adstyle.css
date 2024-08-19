@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: rgb(182, 238, 232);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #333; 
+    background-color: #333;
+    margin-left: 3px;
+    margin-right: 3px;
+    opacity: 60%;
+}
+
+.allmenu {
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(63, 145, 252);
+    width: 250px;
+    height: 1385px;
+    border: 5px solid #01187c;
+}
+
+.profile-picture {
+    border-radius: 40%;
+}
+
+.picture {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 40%;
+}
+
+.nama {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.achievement {
+    color: aliceblue;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.organization {
+    color: aliceblue;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.identity {
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    border: 5px solid #01187c;
+    background-color: aliceblue;
+    left: 275px;
+    width: 1050px;
+    height: auto;
+}
+
+.my-information {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.education {
+    position: absolute;
+    margin: 245px 10px 10px 10px;
+    border: 5px solid #01187c;
+    background-color: aliceblue;
+    left: 275px;
+    width: 1050px;
+    height: auto;
+}
+
+.my-education {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project {
+    position: absolute;
+    margin: 555px 10px 10px 10px;
+    border: 5px solid #01187c;
+    background-color: aliceblue;
+    left: 275px;
+    width: 500px;
+    height: 370px;
+}
+
+.my-project {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills {
+    position: absolute;
+    margin: 555px 10px 10px 10px;
+    border: 5px solid #01187c;
+    background-color: aliceblue;
+    left: 785px;
+    width: 540px;
+    height: 370px;
+}
+
+.my-skills {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact {
+    position: absolute;
+    margin: 935px 10px 10px 10px;
+    border: 5px solid #01187c;
+    background-color: aliceblue;
+    left: 650px;
+    width: 675px;
+    height: 460px;
+}
+
+.my-contact {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-id {
+    color: black;
+    margin-left: 10px;
+}
+
+.photos {
+    position: absolute;
+    margin: 935px 10px 10px 10px;
+    border: 5px solid #01187c;
+    background-color: aliceblue;
+    left: 275px;
+    height: 70.5vh;
+    width: 54vh;
+}
+
+.photo-text {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.mySlides {
+    display: none;
+}
+  
+.cursor {
+    cursor: pointer;
+}
+  
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.column {
+    float: left;
+    padding-bottom: 24px;
+}
+  
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
